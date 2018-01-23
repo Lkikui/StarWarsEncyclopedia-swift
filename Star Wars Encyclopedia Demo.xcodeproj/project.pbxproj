@@ -16,6 +16,7 @@
 		CC8F9A1920166AC5002536A4 /* Star_Wars_Encyclopedia_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F9A1820166AC5002536A4 /* Star_Wars_Encyclopedia_DemoTests.swift */; };
 		CC8F9A2420166AC5002536A4 /* Star_Wars_Encyclopedia_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F9A2320166AC5002536A4 /* Star_Wars_Encyclopedia_DemoUITests.swift */; };
 		CCAE6D472016A35400A37618 /* FilmVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE6D462016A35400A37618 /* FilmVCTableViewController.swift */; };
+		CCBCC15C2016FCE900364774 /* StarWarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBCC15B2016FCE900364774 /* StarWarsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CC8F9A2320166AC5002536A4 /* Star_Wars_Encyclopedia_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_Wars_Encyclopedia_DemoUITests.swift; sourceTree = "<group>"; };
 		CC8F9A2520166AC5002536A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCAE6D462016A35400A37618 /* FilmVCTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmVCTableViewController.swift; sourceTree = "<group>"; };
+		CCBCC15B2016FCE900364774 /* StarWarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		CC8F99F420166AC5002536A4 = {
 			isa = PBXGroup;
 			children = (
+				CCBCC15B2016FCE900364774 /* StarWarsModel.swift */,
 				CC8F99FF20166AC5002536A4 /* Star Wars Encyclopedia Demo */,
 				CC8F9A1720166AC5002536A4 /* Star Wars Encyclopedia DemoTests */,
 				CC8F9A2220166AC5002536A4 /* Star Wars Encyclopedia DemoUITests */,
@@ -266,6 +269,7 @@
 			files = (
 				CC8F9A0320166AC5002536A4 /* PeopleViewController.swift in Sources */,
 				CC8F9A0120166AC5002536A4 /* AppDelegate.swift in Sources */,
+				CCBCC15C2016FCE900364774 /* StarWarsModel.swift in Sources */,
 				CCAE6D472016A35400A37618 /* FilmVCTableViewController.swift in Sources */,
 				CC8F9A0920166AC5002536A4 /* Star_Wars_Encyclopedia_Demo.xcdatamodeld in Sources */,
 			);
